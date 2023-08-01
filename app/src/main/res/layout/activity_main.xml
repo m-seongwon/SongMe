@@ -8,19 +8,24 @@
     android:padding="16dp"
     tools:context=".MainActivity">
 
+    <!-- TextView to display selected dates (optional) -->
+
     <Button
         android:id="@+id/btnSelectDates"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Select Dates" />
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:background="@drawable/buttonround"
+        android:gravity="center"
+        android:text="날짜 선택하러 가기"
+        android:textSize="25sp" />
 
-    <!-- TextView to display selected dates (optional) -->
     <TextView
         android:id="@+id/tvSelectedDates"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Selected Dates:"
-        android:textSize="18sp" />
+        android:gravity="center"
+        android:text="선택한 날짜"
+        android:textSize="24sp" />
 
 </LinearLayout>
